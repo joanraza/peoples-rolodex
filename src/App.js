@@ -19,7 +19,7 @@ class App extends Component {
       <div className='App'>
         <CardList>
           {this.state.monsters.map(monster => (
-            <h1 key={monster.id}>{monster.name}</h1>
+            <h1 key={monster.id}>{monster.email}</h1>
           ))}
         </CardList>
       </div>
